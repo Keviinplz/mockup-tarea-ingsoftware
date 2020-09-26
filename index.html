@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Up | Entrega Individual</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div id="name">
+            <h2>Pago de Cuentas:</h2>
+        </div>
+        <div id="user">
+            <span>Bienvenido (a): Jocelyn Simmonds</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main">
+            <ul>
+                <li>> Cuentas Por Pagar</li>
+                <li>Cuentas Pagadas</li>
+            </ul>
+        </div>
+        <div class="other">
+            <div class="boxes">
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Aguas Andinas</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$39.990</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">ENEL Distribuciones</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$25.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Lipigas</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$16.500</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Autopista / TAG</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$60.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">WOM Plan 25GB</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$12.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Seguro Automotriz</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$30.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">GTD Manquehue</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$25.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Falabella Crédito</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$25.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Homecenter Crédito</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$25.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Dividendo</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$80.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">Avance en Efectivo LIDER</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$120.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-name">
+                        <span class="name-account">La Polar Crédito</span>
+                    </div>
+                    <div class="box-description">
+                        <span class="price-account">$25.000</span>
+                        <button class="select-account" type="button">Seleccionar</button>
+                    </div>
+                </div>  
+            </div>
+            <div class="detail">
+                <table class="pure-table pure-table-horizontal">
+                    <thead>
+                        <tr>
+                            <th>Nombre Cuenta</th>
+                            <th>Precio</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="details">
+                        <tr>
+                            <td colspan="2">Total:</td>
+                            <td id="sum">0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <button class="pay" type="button">Pagar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
